@@ -3,7 +3,6 @@
 	"name": "blocks-course/text-box",
 	"title": "Text Box",
 	"category": "text",
-	"icon": "text-page", 
 	"description": "A box of text.",
 	"keywords": ["text", "paragraph", "box"],
 	"supports": {
@@ -12,5 +11,11 @@
 	"textdomain": "text-box",
 	"editorScript": "file:./build/index.js",
 	"editorStyle": "file:./build/index.css",
-	"style": "file:./build/style-index.css"
+	"style": "file:./build/style-index.css",
+	"attributes":{
+		"text":{
+			"type": "string"
+		}
+
+	}
 }
