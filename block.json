@@ -14,7 +14,14 @@
 	"style": "file:./build/style-index.css",
 	"attributes":{
 		"text":{
-			"type": "string"
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"alignment":{
+			"type": "string",
+			"default": "left"
+
 		}
 
 	}
