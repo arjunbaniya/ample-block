@@ -28,8 +28,9 @@
 	"dependencies": {
 		"@wordpress/block-editor": "^6.1.7",
 		"@wordpress/blocks": "^9.1.4",
-		"@wordpress/components": "^22.1.0",
-		"@wordpress/i18n": "^4.1.1"
+		"@wordpress/components": "^18.0.0",
+		"@wordpress/i18n": "^4.1.1",
+		"caniuse-lite": "^1.0.30001436"
 	},
 	"devDependencies": {
 		"@wordpress/eslint-plugin": "^9.0.6",

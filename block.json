@@ -3,6 +3,7 @@
 	"name": "blocks-course/text-box",
 	"title": "Text Box",
 	"category": "text",
+	"icon": "text-page",
 	"description": "A box of text.",
 	"keywords": ["text", "paragraph", "box"],
 	"supports": {
@@ -12,17 +13,15 @@
 	"editorScript": "file:./build/index.js",
 	"editorStyle": "file:./build/index.css",
 	"style": "file:./build/style-index.css",
-	"attributes":{
-		"text":{
+	"attributes": {
+		"text": {
 			"type": "string",
 			"source": "html",
-			"selector": "p"
+			"selector": "h4"
 		},
-		"alignment":{
+		"alignment": {
 			"type": "string",
 			"default": "left"
-
 		}
-
 	}
 }
